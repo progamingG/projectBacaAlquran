@@ -3,7 +3,7 @@ const eldiv = document.getElementsByClassName("elDiv");
 const elbutton = document.getElementsByTagName("button");
 const elinput = document.querySelector("input");
 
-// const elp = eldiv[0].firstElementChild
+
 
 elinput.addEventListener("keyup", function (e) {
   let text = parseInt(e.target.value);
